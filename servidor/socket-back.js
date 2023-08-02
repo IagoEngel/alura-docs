@@ -1,6 +1,6 @@
 import registrarEventosCadastro from "./registrarEventos/cadastro.js";
-import registrarEventosDocumento from "./registrarEventos/registrarEventosDocumento.js";
-import registrarEventosInicio from "./registrarEventos/registrarEventosInicio.js";
+import registrarEventosDocumento from "./registrarEventos/documento.js";
+import registrarEventosInicio from "./registrarEventos/inicio.js";
 import io from "./servidor.js";
 
 io.on("connection", (socket) => {
